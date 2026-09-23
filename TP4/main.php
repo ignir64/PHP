@@ -17,11 +17,17 @@ if ($link) {
 
 $query = "SELECT * FROM $nomtable";
 
-print $result = mysqli_query($link, $query) or die("Requête impossible");
+$result = mysqli_query($link, $query) or die("Requête impossible");
 if ($result) {
     print "Requête réussie<br>";
 } else {
     print "Requête échouée<br>";
+}
+
+while ($donnees = mysqli_fetch_array($result)) {
+    $ch1=$donnees['ville'];
+    $ch2=$donnees['indice'];
+    print "ville : $ch1, indice : $ch2<br>";
 }
 
 ?>
