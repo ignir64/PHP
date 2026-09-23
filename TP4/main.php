@@ -31,7 +31,7 @@ while ($donnees = mysqli_fetch_array($result)) {
 }
 */
 
-//header("Content-type: image/jpeg");
+header("Content-type: image/jpeg");
 
 //ImageCreate(400, 300) or die("Impossible de créer l'image");
 $test = ImageCreateTrueColor(400, 300) or die("Impossible de créer l'image");
@@ -42,5 +42,7 @@ $color2 = ImageColorAllocate($test2, 255, 0, 255);
 $polygon = imageFilledPolygon($test, array(100, 10, 50, 60, 150, 60), 4, $color2);
 
 $image = imagefilledrectangle($polygon, 0, 0, $color2);
+
+imagejpeg($test);
 
 ?>
