@@ -31,7 +31,7 @@ while ($donnees = mysqli_fetch_array($result)) {
 }
 */
 
-header("Content-type: image/jpeg");
+//header("Content-type: image/jpeg");
 
 //ImageCreate(400, 300) or die("Impossible de créer l'image");
 $test = ImageCreateTrueColor(400, 300) or die("Impossible de créer l'image");
