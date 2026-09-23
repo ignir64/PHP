@@ -17,7 +17,7 @@ if ($link) {
 
 $query = "SELECT * FROM $nomtable";
 
-$result = mysqli_query($link, $query) or die("Requête impossible");
+print $result = mysqli_query($link, $query) or die("Requête impossible");
 if ($result) {
     print "Requête réussie<br>";
 } else {
