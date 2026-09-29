@@ -1,0 +1,10 @@
+{
+  "continents": {
+    "europe": {
+      "pays": ["France", "Belgique", "Espagne"]
+    },
+    "asie": {
+      "pays": ["Japon", "Inde"]
+    }
+  }
+}
