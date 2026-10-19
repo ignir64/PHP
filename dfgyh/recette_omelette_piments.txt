@@ -1,0 +1,25 @@
+Nom de la recette :
+Omelette aux piments
+
+Description :
+Battre les oeufs, saler, ajouter les piments et cuire le tout dans une poele anti-adhésive.
+
+Image :
+images/omelette_piments.jpg
+
+Catégorie :
+Plats
+
+Ingrédients :
+- 3 oeufs
+- 5 piments
+- 1 pincée de sel
+
+Lien vidéo :
+https://www.youtube.com/watch?v=123456
+
+Lien fichier PDF :
+https://www.example.com/omelette_piments.pdf
+
+Conseils du chef:
+Ajoutez une cuillerée du lait avant de battre les oeufs pour obtenir une texture plus onctueuse
